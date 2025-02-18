@@ -54,7 +54,7 @@ header {
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background-color :black;
+    
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +76,7 @@ header {
       .navigation {
         display: flex;
         gap: 20px;
-        background-color: black;
+        
         padding: 10px 20px;
     }
 
@@ -123,11 +123,13 @@ header {
 
     .wrapper {
         width: 350px;
-        background:black;
+        
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         text-align: center;
+        color: #333;
+        background-color: #555;
     }
 
     .wrapper h2 {
@@ -140,13 +142,14 @@ header {
         margin-bottom: 20px;
         border-radius: 0%;
         display: flex;
+        background-color: #252222;
     }
 
     .input-box input {
         width: 100%;
         padding: 10px;
         padding-left: 35px;
-        border: 1px solid #ccc;
+        border: 1px solid gray;
         border-radius: 5px;
         font-size: 16px;
         outline: none;
@@ -216,7 +219,7 @@ header {
         color: black;
     }
     .background-color{
-        background-color: black;
+        
         color: white;
     }
     .login-container {
@@ -296,7 +299,7 @@ body {
 /* Body */
 body {
     display: flex;
-    background-color: #f4f4f4;
+    background-color: gray;
 }
 
 *{
@@ -422,7 +425,7 @@ h1,h2{
 
 /* Body Background */
 body {
-    background-color: black; /* Faint blue background */
+     /* Faint blue background */
 }
 
 /* Sidebar */
@@ -488,7 +491,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black;
+    
 }
 
 /* Account Container */
@@ -767,7 +770,7 @@ body {
     color: #000;
 }
 #hope{
-    background-color: #000;
+    
 }
 .remember-me{
     color: #000;
